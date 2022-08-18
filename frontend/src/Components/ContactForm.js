@@ -1,4 +1,5 @@
-import React, { Component, useState } from 'react';
+// import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 // const url = require('../../Mailer/modal/config.json')
 
@@ -48,7 +49,7 @@ const ContactForm = () => {
   };
   return (
     <div>
-    <div id='top' id='contact'>
+    <div id='contact'>
     <div className='about-text1'>
                <h2>Say Hello to Us</h2>
                {/* <p>+44 (0) 114 399 7850 */} */

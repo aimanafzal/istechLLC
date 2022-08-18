@@ -7,12 +7,12 @@ import Services from './Components/Services';
 import About from './Components/About';
 import Presentation from './Components/Presentation';
 import aboutimage from './images/about.png'
-import aboutimage1 from './images/download.png'
+// import aboutimage1 from './images/download.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-import ContactForm from './Components/ContactForm'
+// import ContactForm from './Components/ContactForm'
 import Footer from './Components/Footer';
-import ParticleBackground from './ParticleBackground';
+// import ParticleBackground from './ParticleBackground';
 import ReactGA from 'react-ga';
 import $ from 'jquery';
 

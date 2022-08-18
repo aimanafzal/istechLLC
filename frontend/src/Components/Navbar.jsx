@@ -3,23 +3,24 @@ import logo from '../images/pogo.png'
 import {
   MDBNavbar,
   MDBContainer,
-  MDBIcon,
+  // MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBDropdown,
-  MDBDropdownMenu,
-  MDBDropdownToggle,
-  MDBDropdownItem,
-  MDBDropdownLink
+  // MDBDropdown,
+  // MDBDropdownMenu,
+  // MDBDropdownToggle,
+  // MDBDropdownItem,
+  // MDBDropdownLink
 } from 'mdb-react-ui-kit';
 
 export default function Navbar() {
-  const [showNavRight, setShowNavRight] = useState(false);
+  // const [showNavRight, setShowNavRight] = useState(false);
   
-    const [nav,setnav] = useState(false);
+    // const [nav,setnav] = useState(false);
+    const [setnav] = useState(false);
   const [showNav, setShowNav] = useState(false);
   const changeBackgrond =()=>{
     if(window.scrollY >=50){
