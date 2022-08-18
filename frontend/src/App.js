@@ -63,7 +63,7 @@ class App extends Component {
       <Presentation />
       {/* <About image={aboutimage1} title='Comes With All you Need For daily Life'/> */}
       <Services/>
-      //changes made
+  
       {/* <About image={aboutimage1} title='Comes With All you Need For daily Life'/> */}
       {/* <div className="container">
         <div className="col-md-6 offset-md-3" >
